@@ -1438,19 +1438,19 @@ header > nav > ul > a > li:visited {
 }
 
 .sections:nth-child(7) > section > div:nth-child(1) {
-    background: url("../../assets/images/_MG_6012.jpeg");
+    background: url("../../assets/images/my/_F8A5806.JPG");
 }
 
 .sections:nth-child(7) > section > div:nth-child(2) {
-    background: url("../../assets/images/PXL_20220515_130148162_2-01_2-01-min.jpeg");
+    background: url("../../assets/images/my/IMG_1701.JPG");
 }
 
 .sections:nth-child(7) > section > div:nth-child(3) {
-    background: url("../../assets/images/IMG_20220719_094857_573.jpg");
+    background: url("../../assets/images/my/IMG_20170111_092841.jpg");
 }
 
 .sections:nth-child(7) > section > div:nth-child(4) {
-    background: url("../../assets/images/IMG_20220602_205132_170.jpg");
+    background: url("../../assets/images/my/IMG_2116.JPG");
 }
 
 .sections:nth-child(7) > section > div:nth-child(5) {
@@ -5963,6 +5963,7 @@ body{
         font-size: 12px;
         width: max-content;
     }
+
 }
 
 
