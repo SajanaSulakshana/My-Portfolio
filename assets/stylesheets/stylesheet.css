@@ -244,7 +244,6 @@ header > nav > ul {
 }
 header > nav > ul > a>li{
     z-index:100;
-    /*position: relative;*/
     width: max-content !important;
     transition: all 0.5s ease-in;
 }
@@ -297,22 +296,8 @@ header > nav > ul > a >li:hover:before {
     to{
         width:50%;
     }
-
 }
 
-/*
-html{
-    scroll-snap-type: y mandatory;
-    !*overflow-y: scroll;*!
-    !*height: 100vh;*!
-}
-.sections {
-    !*width: 100vw;*!
-    height: 100vh;
-    width: 100vw;
-    scroll-snap-align: center;
-}
-*/
 
 @keyframes header-scroll-animation {
     from {
@@ -337,14 +322,6 @@ html{
     body {
         zoom: 82%;
     }
-
-  /*  .sections:first-child > aside:nth-child(4) > h1 {
-        font-size: 200px !important;
-    }
-    .sections:first-child > img:first-child {
-        left: 75.917vw !important;
-    }*/
-
 }
 
 
@@ -503,7 +480,7 @@ header > nav > ul > a > li:visited {
 
 .sections:nth-child(2) > section:nth-child(1) > img:nth-child(2) {
     position: absolute;
-    left: 11.458vw;
+    left: 7vw;
     top: 70px;
     z-index: 1;
 }
@@ -548,7 +525,6 @@ header > nav > ul > a > li:visited {
 
 .sections:nth-child(3) > img:nth-child(2) {
     transform: rotate(-180deg);
-    /*width: 647px;*/
     height: 491px;
     position: absolute;
     bottom: 0px;
@@ -573,15 +549,7 @@ header > nav > ul > a > li:visited {
     margin: 20px;
 }
 .sections:nth-child(3) > section:first-of-type > div:hover{
-/*    content:"";
-    position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    margin:auto;
-    width: 100%;
-    height: 100%;*/
+
     cursor: pointer;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
@@ -624,7 +592,6 @@ header > nav > ul > a > li:visited {
     font-size: 15px;
     text-align: center;
     color: #262222;
-
     margin:0;
 }
 
@@ -1694,10 +1661,7 @@ header > nav > ul > a > li:visited {
     right: 0;
     margin: auto;
 }
-/*@media (-webkit-device-pixel-ratio: 1) {*/
-/*    html {*/
-/*        zoom: % !important;*/
-/*    }*/
+
 
 @media all and (min-width: 1921px) and (max-width: 2560px) {
     @keyframes onLoad_animation_lbl2 {
@@ -5343,7 +5307,7 @@ body{
     }
 
     .sections:nth-child(2) > section:nth-child(1) > img:first-child {
-        width: 44vw;
+        width: 404vw;
         height: 267px;
         right: 2.133vw;
         top: 35px;
